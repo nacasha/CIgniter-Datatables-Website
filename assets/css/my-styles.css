@@ -1,0 +1,41 @@
+.features {
+    text-align: left;
+    font-size: 13pt;
+}
+
+.features li {
+    vertical-align: middle;
+}
+
+.features li .svg-inline--fa.fa-check {
+    margin: 4px;
+    float: left;
+}
+
+.features li div {
+    margin-left: 30px;
+}
+
+.intro.features-section {
+    margin-bottom: 0;
+}
+
+dl, ol, ul {
+    list-style-type: disc;
+}
+
+.structure {
+    margin-bottom: 0;
+    border-radius: 4px;
+    padding: 20px;
+    font-family: monospace;
+    background-color: #eff0f1;
+}
+
+.code-block {
+    margin: 0;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background-color: #222222;
+}
